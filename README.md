@@ -49,7 +49,23 @@ The design adapts smoothly from mobile to desktop, maintaining visual hierarchy 
 
 ### What I learned
 
-While working on this project, I reinforced the importance of semantic HTML structure to organize content clearly and meaningfully. I used elements such as <main>, <header>, <section>, <ul>, <ol>, and <table> to properly structure the recipe content.
+While working on this project, I reinforced the importance of semantic HTML structure to organize content clearly and meaningfully. I used elements such as
+
+```html
+<main>
+  <header>
+    <section>
+      <ul>
+        <ol>
+          <table></table>
+        </ol>
+      </ul>
+    </section>
+  </header>
+</main>
+```
+
+to properly structure the recipe content.
 
 I also practiced organizing CSS in a clean and maintainable way. Instead of using layout systems like Flexbox or Grid, I focused on controlling spacing, margins, typography, and widths to achieve the desired layout. Centering the container using
 
